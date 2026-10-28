@@ -99,6 +99,6 @@ check_step
 
 echo " All steps successfully executed! Cluster pre-requisites setup complete!..............." >&3
 
-echo "Please execute the below step for calico network plugin installation for the cluster to be Ready." >&3
+echo "Please execute the below step in ******CONTROL-PLANE****** for calico network plugin installation for the cluster to be Ready." >&3
 
 echo "kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml" >&3
